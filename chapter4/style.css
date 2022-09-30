@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-body {
+  height: 50px;
+  width: 100%;
+  background-color: red;
+}
+
+.header-bottom {
+  height: 500px;
+  width: 100%;
+  background-color: orange;
+}
+
+.main {
+  width: 960px;
+  height: 1400px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.main-visual {
+  height: 1400px;
+  width: 500px;
+  background-color: green;
+  background-position: center;
+}
+
+.main-visual-right {
+  width: 230px;
+  height: 1400px;
+  background-color: springgreen;
+}
+
+.main-visual-left {
+  width: 230px;
+  height: 1400px;
+  background-color: springgreen;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+}
